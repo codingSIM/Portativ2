@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+        <title>Portativ 2</title>
+        <meta charset="utf-8">
+		<!--Library scripts -->
+		<script src='lib/p5.js'></script>
+		<script src='lib/p5.sound.js'></script>
+		<!--Program scripts -->
+		<script src='js/notesArray.js'></script>
+		<script src='js/key.js'></script>
+		<script src='js/octave.js'></script>
+		<script src='js/changeOctaveBtn.js'></script>
+		<script src='js/notePlacement.js'></script>
+		<script src='js/note.js'></script>
+		<script src='js/player.js'></script>
+		<script src='js/playingNote.js'></script>
+		<script src='js/button.js'></script>
+		<script src='js/portativ.js'></script>
+
+		<style>
+			*{margin: 0; padding: 0; overflow: hidden;}
+
+			/*browse text box css*/
+			#PopUpTextbox {
+				position: fixed;
+				background: #b9fe96;
+				left: 50%;
+				top: 50%;
+				width: 25em;
+				height: 6em;
+				transform: translate(-50%, -50%);
+
+				border: 0.5em solid #4EAB25;
+				border-radius: 0.5em;
+			}
+			
+			#PopUpTextbox.closed {
+				display: none;
+			}
+
+			#browse {
+				display: block;
+				margin: auto;
+				margin-top: 2.2em;
+				text-align: center;
+				padding: 0.4em;
+				background-color: #4EAB25;
+				border:none;
+				color: white;
+				border-radius: 0.5em;
+			}
+
+			/*closing the textbox*/
+			#x {
+				position: absolute;
+				top:0;
+				right:0;
+				padding: 0.5em 0.7em 0.5em 0.7em;
+				border-radius: 0.5em;
+
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<!-- adding the close button and the input type -->
+		<div id=PopUpTextbox class="closed">
+ 			<button onclick="closeTxt()" id="x">X</button>
+			<input type="file" id="browse" onchange="loadFile()">
+		</div>
+	</body>
+
+</html>

@@ -2,7 +2,7 @@
 I created Portativ 2 as a means to measure how much I could improve 
 from the first iteration of the project. My aim for this project was 
 to create a tool that I could use to make songs and sound effects for 
-future projects.
+future projects, it acts similarly to a music tracker.
 
 # Features
 1. Firstly the program features a simple animated keyboard at the top of the screen. 
@@ -29,7 +29,7 @@ future projects.
 1. The user can also record the music using the record button and save it as a .wav file on their machine.
 
 # Future improvements
-This project was not made with responsiveness in mind, thus it will not resize for different screens. This will be taken into consideration in the next possible update. Portativ 2 would also benefit from a using nicer graphics, currently it looks more like a test-build rather than a finished project. I plan to add better graphics in a future update. 
+This project was not made with responsiveness in mind, thus it will not resize for different screens. This will be taken into consideration in the next possible update, if possible. Portativ 2 would also profit from using nicer graphics, currently it looks more like a test-build rather than a finished project. This project might also benefit from introducing a snap-to-grid function that would make notes snap to specific positions on the grid so it's easier to control the note positions. The next update will prioritise the snap-to-grid function.
 
 # Contact
-If you use this project and have ideas for updates or improvements, please send an email to: codingsim@gmail.com
+If you use this project and have ideas for updates or improvements, or you discover bugs, please send an email to: codingsim@gmail.com

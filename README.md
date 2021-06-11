@@ -8,7 +8,7 @@ future projects.
 1. Firstly the program features a simple animated keyboard at the top of the screen. 
 1. When a note passes the player head (positioned under the keys), the corresponding key will light up. 
 1. On top of every set of octave keys there are buttons which transpose the octave higher or lower. 
-1.On the left side there is a menu which can be accessed by clicking:
+1. On the left side there is a menu which can be accessed by clicking:
    1. [H] Hide - Hides the keyboard graphics
    2. [M] Mode - Changes the mode of the notes (between sine, triangle, sawtooth, square)
    3. [Space] Play - Play/Pause the notes
